@@ -32,5 +32,4 @@ Java
 Ask about Wordpress:
 Wordpress
 
-Ivan contact
-7869183522
+
