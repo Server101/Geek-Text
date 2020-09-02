@@ -1,2 +1,2 @@
-# Greek-Text
+# Geek-Text
 Web Application Book Store
