@@ -25,7 +25,7 @@ https://github.com/Server101/Geek-Text
 
 Agenda
 Mondays at 7 pm
-Thursdays after class… pending review
+Friday 6:30 pm
 
 Check API:
 Java
