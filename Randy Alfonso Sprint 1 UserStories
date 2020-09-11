@@ -1,0 +1,17 @@
+User Stories Sprint 1
+Randy Alfonso
+9-10-2020
+
+Rating Books
+
+As a user of the online shopping market, I would like to have the
+ability to rate books, so other users can have a rough idea of the 
+quality of the products they see available.
+
+Conditions of Satisfaction
+
+Give rating of product on the market
+Rating should be between 0 and a number desired by the client
+Ratings should be attached to the product
+All ratings should be average numbers, after + all ratings / by # of ratings
+Ratings should be visible in product information
