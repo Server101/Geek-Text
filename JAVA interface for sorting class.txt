@@ -1,0 +1,18 @@
+//Java INTERFACE for bookSorter Class
+//bookList is the data pulled from database
+//sortType is taken from drop down selection of the application
+
+
+
+
+Public class bookSorter(){
+
+		void sortBookByBestSellers(bookList[] db, int sortType){}
+		void sortBookByRating(bookList[] db, int sortType){}
+		void sortBookByTitle(bookList[] db, int sortType){}
+		void sortBookByAuthor(bookList[] db,int sortType){}
+		void sortBookByPrice(bookList[] db,int sortType){}
+		void sortBookByRating(bookList[] db,int sortType){}
+		void sortBookByReleaseDate(bookList[] db,int sortType){}
+		
+}
