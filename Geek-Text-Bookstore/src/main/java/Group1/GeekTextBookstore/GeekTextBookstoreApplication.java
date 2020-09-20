@@ -13,12 +13,3 @@ public class GeekTextBookstoreApplication {
 
 }
 
-@RestController  
-public class HelloWorldController   
-{  
-@RequestMapping("/")  
-public String hello()   
-{  
-return "Hello User";  
-}  
-}  
