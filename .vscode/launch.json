@@ -8,8 +8,20 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
+            "url": "http://localhost:8080/h2",
             "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-GeekTextBookstoreApplication<Geek-Text-Bookstore>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "Group1.GeekTextBookstore.GeekTextBookstoreApplication",
+            "projectName": "Geek-Text-Bookstore",
+            "args": [],
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "startupClass": "${fileBasename}"
         }
     ]
 }
