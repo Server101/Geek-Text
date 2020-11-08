@@ -2,6 +2,8 @@
 Web Application Book Store
 
 Here is the repository for the UI https://github.com/Server101/textbookstore-ui
+/n 
+
 Dependencies:
 In this branch the SQlite configuration was created in the application.properites folders and pomxl.
 The new dependencies is Spring data Jpa, rest repository web, (Sql lite Do not forget the version number, and sqlite-dialect)
