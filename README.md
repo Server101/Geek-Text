@@ -2,7 +2,7 @@
 Web Application Book Store
 
 Here is the repository for the UI https://github.com/Server101/textbookstore-ui
-/n 
+
 
 Dependencies:
 In this branch the SQlite configuration was created in the application.properites folders and pomxl.
