@@ -1,6 +1,8 @@
 # Geek-Text
 Web Application Book Store
 
+1-Ivan alberti 2-Martin 3 Luis Alvarez 4-Walter 5-Randy 6-Ricardo
+
 Here is the repository for the UI https://github.com/Server101/textbookstore-ui
 
 
