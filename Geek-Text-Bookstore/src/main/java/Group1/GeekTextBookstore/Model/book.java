@@ -27,7 +27,7 @@ public class book {
    private String pages;
    private BigDecimal purchase_price;
    private String series;
-
+    
    public String getBook_name() {
        return book_name;
    }

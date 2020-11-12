@@ -1,33 +1,34 @@
 package Group1.GeekTextBookstore.Model;
 
-
-
 //import javax.annotation.Generated;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 
 //import org.springframework.data.annotation.Id;
 
 @Entity
+@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class wish {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private String id;
-
+    private long id;
+	
     private String user_name;
     private String user_email;
     private String wish_list_name;
     private String item1;
     private String item2;
     private String item3;
-	public String getId() {
+	public long getId() {
 		return id;
 	}
-	public void setId(String id) {
+	public void setId(long id) {
 		this.id = id;
 	}
 	public String getUser_name() {
