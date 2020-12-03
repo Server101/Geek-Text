@@ -1,25 +1,21 @@
 # Geek-Text
 Web Application Book Store
+Rating System
 
-Here is the repository for the UI https://github.com/Server101/textbookstore-ui
-/n 
+Build a rating system that will update when a new rating has been added to the book.
 
-Dependencies:
-In this branch the SQlite configuration was created in the application.properites folders and pomxl.
-The new dependencies is Spring data Jpa, rest repository web, (Sql lite Do not forget the version number, and sqlite-dialect)
+Sequence of Rating:
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Step 1) User purchases a book.
+Step 2) User is them prompted with the choice of rating the book or not.
+Step 3) If the user clicks the NO option it will move on to the comment prompt.
+Step 4) If the user clicks the YES option it will ask the user to enter a rating from 1-5.
+Step 5) After the user enters the rating. The rating will be sent to a database that holds all ratings for that book and will re-calculate the average rating of the book.
+Step 6) User is then done with the rating and will move on to commenting.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Database:
-The database is embedded in a file called bike.db in the top folder structure. It uses sqlite 3.0 and cannot be renamed or edited in IDE.
-Use SQLite Studio separate software to access the database. Once installed simply select the file path for bike.db location in your machine. 
-Upon successful connection datbase tables should appear. Download here https://sqlitestudio.pl/
+Resources required: A database that allows methods to create an algorithm that will add the new rating and then add 1 to total number of ratings and then calculate average.
 
-Creating API:
-The api creation involves 4 features:
-1. The .java table entity (always save in models folder)
-2. The Repository.java (Saved in folder repositories)
-3. The rest controller .java (Saved under controller)
-4. The actual database table which is stored in bike.db. The table must follow the same entities described  in the .java file created in models folder.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-see examples of user.java, userRepository.java, userController.Java, user table in database. 
-
-
+Database was sadly not created.
