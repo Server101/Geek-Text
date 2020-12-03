@@ -6,8 +6,7 @@ Build a rating system that will update when a new rating has been added to the b
 
 Sequence of Rating:
 
-Step 1) User purchases a book.
-Step 2) User is them prompted with the choice of rating the book or not.
+Step 1) User purchases a book.                                                                                                                                                    Step 2) User is them prompted with the choice of rating the book or not.
 Step 3) If the user clicks the NO option it will move on to the comment prompt.
 Step 4) If the user clicks the YES option it will ask the user to enter a rating from 1-5.
 Step 5) After the user enters the rating. The rating will be sent to a database that holds all ratings for that book and will re-calculate the average rating of the book.
