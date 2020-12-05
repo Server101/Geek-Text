@@ -13,33 +13,33 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import Group1.GeekTextBookstore.Model.wish;
-import Group1.GeekTextBookstore.Repositories.wishRepository;
+import Group1.GeekTextBookstore.Model.wish2;
+import Group1.GeekTextBookstore.Repositories.wish2Repository;
 
 @RestController
-@RequestMapping("/api/v1/wish") // The api has version control
-public class wishController {
+@RequestMapping("/api/v1/wish2") // The api has version control
+public class wish2Controller {
     @Autowired
-    private wishRepository wishRepository;
+    private wish2Repository wish_Repository;
 
     /// ===API can list Data===
 
     @GetMapping
-    public List<wish> list() {
-        return wishRepository.findAll();
+    public List<wish2> list() {
+        return wish_Repository.findAll();
     }
 
     /// ===API can Create Data===
     @PostMapping
     @ResponseStatus(HttpStatus.OK)
-    public void create(@RequestBody wish wishes) {
-        wishRepository.save(wishes);
+    public void create(@RequestBody wish2 wishes2) {
+        wish_Repository.save(wishes2);
 
     }
 
     /// ===API can View Data===
     @GetMapping("/{id}")
-    public wish get(@PathVariable("id") Long id) {
-        return wishRepository.getOne(id);
+    public wish2 get(@PathVariable("id") Long id) {
+        return wish_Repository.getOne(id);
     }
 }

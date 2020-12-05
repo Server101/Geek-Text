@@ -15,35 +15,32 @@ import org.springframework.web.bind.annotation.RestController;
 import Group1.GeekTextBookstore.Repositories.bookRepository;
 import Group1.GeekTextBookstore.Model.book;
 
-
-
 @RestController
-@RequestMapping("/api/v1/books")  //The api has version control
+@RequestMapping("/api/v1/book") // The api has version control
 public class bookController {
     @Autowired
-    private bookRepository BooksRepository;
-    
-    
-    ///===API can list Data===
-    //creating bike list
+    private bookRepository OldBooksRepository;
+
+    /// ===API can list Data===
+    // creating bike list
 
     @GetMapping
     public List<book> list() {
-        return BooksRepository.findAll();
+        return OldBooksRepository.findAll();
     }
 
-    ///===API can Create Data===
+    /// ===API can Create Data===
     @PostMapping
     @ResponseStatus(HttpStatus.OK)
-    public void create(@RequestBody book books){
-        BooksRepository.save(books);
+    public void create(@RequestBody book books) {
+        OldBooksRepository.save(books);
 
     }
 
-    ///===API can View Data===
+    /// ===API can View Data===
     @GetMapping("/{id}")
-    public book get(@PathVariable("id")long id){
-        return BooksRepository.getOne(id);
+    public book get(@PathVariable("id") long id) {
+        return OldBooksRepository.getOne(id);
     }
 
 }
