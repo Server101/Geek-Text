@@ -3,7 +3,7 @@ Web Application Book Store</br>
 Software Engineering / Scrum Agile Team</br>
 1-Ivan alberti 2-Martin 3 Luis Alvarez 4-Walter 5-Randy 6-Ricardo</br>
 
-Here is the repository for the UI https://github.com/Server101/textbookstore-ui
+Here is the repository for the Angular UI https://github.com/Server101/textbookstore-ui
 
 
 Dependencies:
