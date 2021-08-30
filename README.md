@@ -1,19 +1,19 @@
 # Geek-Text
 Web Application Book Store
-Software Engineering Scrum Agile Team
-1-Ivan alberti 2-Martin 3 Luis Alvarez 4-Walter 5-Randy 6-Ricardo
+Software Engineering Scrum Agile Team</br>
+1-Ivan alberti 2-Martin 3 Luis Alvarez 4-Walter 5-Randy 6-Ricardo</br>
 
 Here is the repository for the UI https://github.com/Server101/textbookstore-ui
 
 
 Dependencies:
 In this branch the SQlite configuration was created in the application.properites folders and pomxl.
-The new dependencies is Spring data Jpa, rest repository web, (Sql lite Do not forget the version number, and sqlite-dialect)
+The new dependencies is Spring data Jpa, rest repository web, (Sql lite, and sqlite-dialect)</br>
 
 Database:
 The database is embedded it uses sqlite 3.0.
-Use SQLite Studio separate software to access the database. Once installed simply select the file path for .db location. 
-Download here https://sqlitestudio.pl/
+Use SQLite Studio to access the database. Once installed simply select the file path for .db location. 
+Download here https://sqlitestudio.pl/</br>
 
 Creating API:
 The api creation involves 4 features:
